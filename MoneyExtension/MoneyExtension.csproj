@@ -4,6 +4,24 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MoneyExtensions.Zaupa</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>André Baltieri</Authors>
+    <Company>balta.io</Company>
+    <PackageDescription>Extension to convert decimal to integer</PackageDescription>
+    <Description>Extension to convert decimal to integer</Description>
+    <RepositoryUrl>https://github.com/JoseZaupa/money-extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/JoseZaupa/money-extensions</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>money;int;decima;converter</PackageTags>
+    <Title>MoneyExtensions.Zaupa</Title>
+    <Summary>Extension to convert decimal to integer</Summary>
+
   </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
